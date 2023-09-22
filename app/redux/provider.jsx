@@ -2,6 +2,6 @@
 import { Provider } from "react-redux";
 import store from "./store";
 
-export function AppProvider({ Children }) {
-	return <Provider store={store}>{Children}</Provider>;
+export function AppProvider({ children }) {
+	return <Provider store={store}>{children}</Provider>;
 }
